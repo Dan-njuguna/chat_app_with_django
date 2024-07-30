@@ -13,7 +13,7 @@ class User(models.Model):
 
     def __str__(self):
         return self.username
-    
+
 class Message(models.Model):
     def __init__(self):
         self.message = models.CharField(max_length = 1024)
@@ -22,5 +22,3 @@ class Message(models.Model):
 
     def __str__(self):
         return self.message
-    
-    
