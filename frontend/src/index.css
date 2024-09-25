@@ -1,0 +1,11 @@
+*{
+  background-color: bisque;
+}
+.input-container{
+  background-color: transparent;
+  border-radius: 5px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
