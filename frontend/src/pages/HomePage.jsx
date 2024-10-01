@@ -3,16 +3,15 @@ import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
-    <div>
-      <nav>
-        <ul>
-          <li><Link to="/LoginInfo">Login</Link></li>
-          <li><Link to="/SignupInfo">Signup</Link></li>
-        </ul>
-      </nav>
-    </div>
+    <>
+    <Link to="/login">
+        <button>Login</button>
+    </Link>
+     <Link to="/signup">
+     <button>Signup page</button>
+ </Link>
+ </>
   );
 }
 
 export default HomePage;
-

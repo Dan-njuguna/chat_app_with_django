@@ -1,4 +1,5 @@
-from django.contrib import admin
+#this urls file maps urls that are specific to this app 
+from django.contrib import admin # type: ignore
 from django.urls import path, include
 
 urlpatterns = [
